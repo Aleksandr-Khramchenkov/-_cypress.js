@@ -2,8 +2,6 @@
 
 > **Статус проекта:**
 > Публичный проект: https://login.qa.studio/
-> 
-> 🟢 Поддерживается (активный) 
 
 ## Описание проекта и задачи
 Автоматизировать часть проверок регресса с помощью Cypress
@@ -22,7 +20,6 @@
 npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 ```
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_cli.png)
 
 
 ## Локальный запуск через Cypress UI
@@ -35,7 +32,6 @@ npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 7. Выбрать спеку lesson_locators
 
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_UI.png)
 
 #Автор 
 Храмченков Александр (@Alex_Khramchenkov)
